@@ -1,9 +1,7 @@
 import pandas as pd
 import numpy as np
 
-a = 1
-b = 2
+def suma(num1: int, num2: int):
+    return num1 + num2
 
-c = a+b
-
-print(c)
+print(suma(1, 2))
